@@ -5,5 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\RJ.Pay.Repo\RJ.Pay.Repo.csproj" />
+	</ItemGroup>
 </Project>
+  

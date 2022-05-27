@@ -9,5 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\RJ.Pay.Services\RJ.Pay.Services.csproj" />
+	</ItemGroup>
 </Project>
