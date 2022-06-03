@@ -12,8 +12,8 @@ namespace RJ.Pay.Data.Models
         [Key]
         public T Id { get; set; }
         [Required]
-        public DateTime Created { get; set; }
+        public DateTime DateCreated { get; set; }
         [Required]
-        public DateTime Modified { get; set; }
+        public DateTime DateModified { get; set; }
     }
 }
