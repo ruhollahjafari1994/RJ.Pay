@@ -9,15 +9,15 @@ namespace RJ.Pay.Data.DatabaseContext
 {
     internal class RJDbContext : DbContext
     {
-        private readonly string _connectionString;
-        public RJDbContext(string connectionString)
-        {
-            _connectionString = connectionString;
-        }
-
+       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(_connectionString);
+            optionsBuilder.UseSqlServer(@"Data Source=GEEK\MASTER;Initial Catalog=RJPayDB;Integrated Security=True;MultipleActiveResultSets=True");
+
+
         }
+        public DbSet<Models.User> Users { get; set; }
+        public DbSet<Models.Photo> Photos { get; set; }
+        public DbSet<Models.BankCard> BankCards { get; set; }
     }
 }
