@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RJ.Pay.Data.Repositories.Repo;
 
 namespace RJ.Pay.Infrastructure
 {
@@ -12,11 +13,24 @@ namespace RJ.Pay.Infrastructure
         }
         #endregion
 
+        #region PrivateRepository
+        private UserRepository userRepository;
+        public UserRepository UserRepository
+        {
+            get
+            {
+                if (userRepository == null)
+                    userRepository = new UserRepository(_db);
+                return userRepository;
+            }
+        }
+        #endregion
+
         #region Save 
         public void Save()
         {
             _db.SaveChanges();
-        } 
+        }
         public Task<int> SaveAsync()
         {
             return _db.SaveChangesAsync();
@@ -25,6 +39,8 @@ namespace RJ.Pay.Infrastructure
 
         #region Dispose
         private bool dispose = false;
+
+
         protected virtual void Dispose(bool disposing)
         {
             if (!dispose)
