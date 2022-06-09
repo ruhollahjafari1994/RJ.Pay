@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Repo", "RJ.Pay.Repo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Services", "RJ.Pay.Services\RJ.Pay.Services.csproj", "{1ACCEB8A-8927-47AF-AFC8-52C5F36E1CDA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Infrastructure", "RJ.Pay.Infrastructure\RJ.Pay.Infrastructure.csproj", "{2FF7070A-835B-4480-9826-647A4C6485DB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Presentation", "RJ.Pay.Presentation\RJ.Pay.Presentation.csproj", "{8A45A5D9-B320-48E9-917A-45304C23ABA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{A3FA26CF-C334-4EFA-B20B-80F73E2A93A9}"
@@ -42,10 +40,6 @@ Global
 		{1ACCEB8A-8927-47AF-AFC8-52C5F36E1CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ACCEB8A-8927-47AF-AFC8-52C5F36E1CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ACCEB8A-8927-47AF-AFC8-52C5F36E1CDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FF7070A-835B-4480-9826-647A4C6485DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FF7070A-835B-4480-9826-647A4C6485DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FF7070A-835B-4480-9826-647A4C6485DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FF7070A-835B-4480-9826-647A4C6485DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A45A5D9-B320-48E9-917A-45304C23ABA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A45A5D9-B320-48E9-917A-45304C23ABA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A45A5D9-B320-48E9-917A-45304C23ABA1}.Release|Any CPU.ActiveCfg = Release|Any CPU

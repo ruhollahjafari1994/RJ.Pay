@@ -8,16 +8,11 @@ namespace RJ.Pay.Infrastructure
         Task InsertAsync(TEntity entity);
 
         void Update(TEntity entity);
-        Task UpdateAsync(TEntity entity);
 
         void Delete(object Id);
-        Task DeleteAsync(object Id);
 
         void Delete(TEntity entity);
-        Task DeleteAsync(TEntity entity);
-
-        void Delete(Expression<Func<TEntity, bool>> where);
-        Task DeleteAsync(Expression<Func<TEntity, bool>> where);
+        
 
         TEntity GetById(object Id);
         Task<TEntity> GetByIdAsync(object Id);
