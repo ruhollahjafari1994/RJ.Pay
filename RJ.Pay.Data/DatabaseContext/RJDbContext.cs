@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RJ.Pay.Data.DatabaseContext
 {
-    internal class RJDbContext : DbContext
+    public class RJDbContext : DbContext
     {
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
