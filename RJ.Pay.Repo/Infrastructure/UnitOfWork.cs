@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RJ.Pay.Data.Repositories.Interface;
-using RJ.Pay.Data.Repositories.Repo;
+using RJ.Pay.Repo.Repositories.Interface;
+using RJ.Pay.Repo.Repositories.Repo;
 
-namespace RJ.Pay.Infrastructure
+namespace RJ.Pay.Repo
 {
     public class UnitOfWork<TContext> : IUnitOfWork<TContext> where TContext : DbContext, new()
     {

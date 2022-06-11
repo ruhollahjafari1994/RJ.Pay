@@ -1,4 +1,4 @@
-﻿namespace RJ.Pay.Infrastructure
+﻿namespace RJ.Pay.Repo
 {
     public class UnitOfWorkBase
     {

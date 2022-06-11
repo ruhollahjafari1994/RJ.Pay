@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RJ.Pay.Data.DatabaseContext;
 using RJ.Pay.Data.Models;
-using RJ.Pay.Infrastructure;
+using RJ.Pay.Repo;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace RJ.Pay.Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] 
     [ApiController]
     public class ValuesController : ControllerBase
     {

@@ -13,10 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Services", "RJ.Pay.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJ.Pay.Presentation", "RJ.Pay.Presentation\RJ.Pay.Presentation.csproj", "{8A45A5D9-B320-48E9-917A-45304C23ABA1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{A3FA26CF-C334-4EFA-B20B-80F73E2A93A9}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\Geek\Downloads\onion architecture.png = C:\Users\Geek\Downloads\onion architecture.png
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{6F411E62-819A-47DF-837F-B0CDACF00EE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

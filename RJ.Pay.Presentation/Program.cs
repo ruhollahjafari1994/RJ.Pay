@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RJ.Pay.Data.DatabaseContext;
-using RJ.Pay.Infrastructure;
+using RJ.Pay.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 

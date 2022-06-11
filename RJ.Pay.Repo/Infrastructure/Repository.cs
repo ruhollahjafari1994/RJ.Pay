@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace RJ.Pay.Infrastructure
+namespace RJ.Pay.Repo
 {
     public class Repository<TEntity> : IRepository<TEntity>, IDisposable where TEntity : class
     {
