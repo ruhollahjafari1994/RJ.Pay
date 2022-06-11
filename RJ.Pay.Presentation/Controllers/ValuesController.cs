@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RJ.Pay.Data.DatabaseContext;
+using RJ.Pay.Data.Models;
 using RJ.Pay.Infrastructure;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,9 +19,30 @@ namespace RJ.Pay.Presentation.Controllers
 
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<string>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            //var user = new User()
+            //{
+            //    Address = "",
+            //    City = "",
+            //    IsActive = true,
+            //    Gender = "",
+            //    DateOfBirth="",
+            //    Name = "",
+            //    PasswordHash = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
+            //    PasswordSalt = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
+            //    PhoneNumber = "",
+            //    Status = true,
+            //    UserName = ""
+            //};
+            //await _db.UserRepository.InsertAsync(user);
+            //var result = await _db.SaveAsync();
+            //if (result > 0)
+            //    return Ok(user);
+            return Ok("");
+
+
+            var model = await _db.UserRepository.GetAllAsync();
         }
 
         // GET api/<ValuesController>/5

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RJ.Pay.Data.Repositories.Interface;
 using RJ.Pay.Data.Repositories.Repo;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace RJ.Pay.Infrastructure
 {
     public interface IUnitOfWork<TContext> : IDisposable where TContext : DbContext
     {
-        UserRepository UserRepository { get; }
+        IUserRepository UserRepository { get; }
         void Save();
         Task<int> SaveAsync();
     }

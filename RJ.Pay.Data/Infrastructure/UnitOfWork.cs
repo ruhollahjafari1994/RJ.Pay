@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RJ.Pay.Data.Repositories.Interface;
 using RJ.Pay.Data.Repositories.Repo;
 
 namespace RJ.Pay.Infrastructure
@@ -14,8 +15,8 @@ namespace RJ.Pay.Infrastructure
         #endregion
 
         #region PrivateRepository
-        private UserRepository userRepository;
-        public UserRepository UserRepository
+        private IUserRepository userRepository;
+        public IUserRepository UserRepository
         {
             get
             {

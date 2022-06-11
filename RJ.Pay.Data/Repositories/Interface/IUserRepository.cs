@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RJ.Pay.Data.Repositories.Interface
 {
-    interface IUserRepository : IRepository<User>
+    public interface IUserRepository : IRepository<User>
     {
 
     }
