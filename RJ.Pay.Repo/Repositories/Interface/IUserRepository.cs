@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 namespace RJ.Pay.Repo.Repositories.Interface
 {
     public interface IUserRepository : IRepository<User>
-    {
-        Task<User> Register(User user ,string password);
-        Task<User> Login(string username ,string password);
+    { 
         Task<User> UserExist(User username);
     }
 }

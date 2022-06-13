@@ -2,47 +2,47 @@
 using RJ.Pay.Data.DatabaseContext;
 using RJ.Pay.Data.Models;
 using RJ.Pay.Repo;
+using RJ.Pay.Services.Auth.Interface;
+using RJ.Pay.Services.Auth.Repo;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace RJ.Pay.Presentation.Controllers
 {
-    [Route("api/[controller]")] 
+    [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
         private readonly IUnitOfWork<RJDbContext> _db;
-        public ValuesController(IUnitOfWork<RJDbContext> dbContext)
+        private readonly IAuthService _authService;
+        public ValuesController(IUnitOfWork<RJDbContext> dbContext, IAuthService authService)
         {
             _db = dbContext;
+            _authService = authService;
         }
 
         // GET: api/<ValuesController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<string>>> Get()
         {
-            //var user = new User()
-            //{
-            //    Address = "",
-            //    City = "",
-            //    IsActive = true,
-            //    Gender = "",
-            //    DateOfBirth="",
-            //    Name = "",
-            //    PasswordHash = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
-            //    PasswordSalt = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
-            //    PhoneNumber = "",
-            //    Status = true,
-            //    UserName = ""
-            //};
-            //await _db.UserRepository.InsertAsync(user);
-            //var result = await _db.SaveAsync();
-            //if (result > 0)
-            //    return Ok(user);
-            return Ok("");
+            var user = new User()
+            {
+                Address = "",
+                City = "",
+                IsActive = true,
+                Gender = "",
+                DateOfBirth = "",
+                Name = "",
+                PasswordHash = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
+                PasswordSalt = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 },
+                PhoneNumber = "",
+                Status = true,
+                UserName = ""
+            };
+         
 
-
-            var model = await _db.UserRepository.GetAllAsync();
+            var u = await _authService.Register(user,"");
+            return Ok(u);
         }
 
         // GET api/<ValuesController>/5

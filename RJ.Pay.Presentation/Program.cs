@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using RJ.Pay.Data.DatabaseContext;
 using RJ.Pay.Repo;
+using RJ.Pay.Services.Auth.Interface;
+using RJ.Pay.Services.Auth.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUnitOfWork<RJDbContext>, UnitOfWork<RJDbContext>>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 var app = builder.Build();
 
 
