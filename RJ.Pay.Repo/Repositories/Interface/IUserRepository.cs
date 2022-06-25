@@ -10,6 +10,6 @@ namespace RJ.Pay.Repo.Repositories.Interface
 {
     public interface IUserRepository : IRepository<User>
     { 
-        Task<User> UserExist(User username);
+        Task<bool> UserExist(string username); 
     }
 }

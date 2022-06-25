@@ -18,10 +18,14 @@ namespace RJ.Pay.Repo.Repositories.Repo
         public UserRepository(DbContext dbContext) : base(dbContext)
         {
             _db = (_db ?? (RJDbContext)_db);
-        } 
-        public async Task<User> UserExist(User username)
+        }
+         
+
+        public async Task<bool> UserExist(string username)
         {
-            throw new NotImplementedException();
+            if (await GetAsync(p => p.UserName == username) != null)
+                return true;
+            return false;
         }
     }
 }

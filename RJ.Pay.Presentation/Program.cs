@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using RJ.Pay.Data.DatabaseContext;
 using RJ.Pay.Repo;
-using RJ.Pay.Services.Auth.Interface;
-using RJ.Pay.Services.Auth.Repo;
+using RJ.Pay.Services.Site.Admin.Auth.Interface;
+using RJ.Pay.Services.Site.Admin.Auth.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 

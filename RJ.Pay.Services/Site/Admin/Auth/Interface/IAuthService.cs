@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RJ.Pay.Services.Auth.Interface
+namespace RJ.Pay.Services.Site.Admin.Auth.Interface
 {
     public interface IAuthService
     {

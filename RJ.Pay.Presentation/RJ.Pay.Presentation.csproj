@@ -12,4 +12,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\RJ.Pay.Services\RJ.Pay.Services.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Controllers\Site\App\" />
+	</ItemGroup>
 </Project>

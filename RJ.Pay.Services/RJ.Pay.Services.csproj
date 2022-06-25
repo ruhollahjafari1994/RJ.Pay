@@ -8,5 +8,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\RJ.Pay.Repo\RJ.Pay.Repo.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Api\" />
+	</ItemGroup>
 </Project>
   

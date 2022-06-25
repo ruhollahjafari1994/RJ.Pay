@@ -2,14 +2,14 @@
 using RJ.Pay.Data.DatabaseContext;
 using RJ.Pay.Data.Models;
 using RJ.Pay.Repo;
-using RJ.Pay.Services.Auth.Interface;
+using RJ.Pay.Services.Site.Admin.Auth.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RJ.Pay.Services.Auth.Repo
+namespace RJ.Pay.Services.Site.Admin.Auth.Service
 {
     public class AuthService : IAuthService
     {
@@ -20,7 +20,15 @@ namespace RJ.Pay.Services.Auth.Repo
         }
         public async Task<User> Login(string username, string password)
         {
-            throw new NotImplementedException();
+            var user =await _db.UserRepository.GetAsync(p => p.UserName == username);
+            if (user==null)
+            {
+                return null;
+            }
+            if (Utilities.VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+                return null;
+
+            return user;
         }
 
         public async Task<User> Register(User user, string password)
