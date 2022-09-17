@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -14,6 +15,7 @@ using System.Text;
 
 namespace RJ.Pay.Presentation.Controllers.Site.Admin
 {
+    [Authorize]
     [Route("site/admin/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
@@ -29,6 +31,7 @@ namespace RJ.Pay.Presentation.Controllers.Site.Admin
             _authService = authService;
             _configuration = configuration;
         }
+        [AllowAnonymous]
         [HttpPost("Register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
@@ -55,7 +58,7 @@ namespace RJ.Pay.Presentation.Controllers.Site.Admin
             var createdUser = await _authService.Register(userToCreate, userForRegisterDto.Password);
             return StatusCode(201);
         }
-
+        [AllowAnonymous]
         [HttpPost("Login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
@@ -78,16 +81,38 @@ namespace RJ.Pay.Presentation.Controllers.Site.Admin
             var tokenDes = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = userForLoginDto.IsRememberMe ?  DateTime.Now.AddDays(1) : DateTime.Now.AddHours(2),
+                Expires = userForLoginDto.IsRememberMe ? DateTime.Now.AddDays(1) : DateTime.Now.AddHours(2),
                 SigningCredentials = creds
             };
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDes);
-            return Ok(new 
+            return Ok(new
             {
-              token = tokenHandler.WriteToken(token)
+                token = tokenHandler.WriteToken(token)
             });
         }
 
+        [AllowAnonymous]
+        [HttpGet("GetValue")]
+        public async Task<IActionResult> GetValue()
+        {
+            return Ok(new ReturnMessage()
+            {
+                status = true,
+                title = "اوکیه",
+                message = ""
+            });
+        }
+
+        [HttpGet("GetValues")]
+        public async Task<IActionResult> GetValues()
+        {
+            return Ok(new ReturnMessage()
+            {
+                 status = true,
+                 title ="اوکیه",
+                 message =""
+            });
+        }
     }
 }
