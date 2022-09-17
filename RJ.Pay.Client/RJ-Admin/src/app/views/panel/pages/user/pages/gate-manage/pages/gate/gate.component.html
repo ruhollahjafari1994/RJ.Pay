@@ -1,0 +1,119 @@
+<div 
+[ngClass]="{'gate-main': !gate.isActive}"
+class=" section">
+  <div
+  [ngClass]="{'gate-child': !gate.isActive}"
+  class="box">
+    <div class="top-xs header">
+      <div class="row">
+        <div class="right-box">
+          <p>
+            <span 
+            [ngClass]="gate.isActive ? 'green-small-circle' : 'red-small-circle'"
+            class="green-small-circle flash"></span
+            ><span title="{{gate.websiteName}}" class="header-title"
+              >{{gate.websiteName}}
+              <small *ngIf="!gate.isActive" style="color: rgb(235, 68, 68);">(غیر فعال)</small>
+            </span>
+          </p>
+        </div>
+        <div class="col-xs ta-left-box left-box">
+          <button
+            mat-icon-button
+            [matMenuTriggerFor]="menu"
+            aria-label="Example icon-button with a menu"
+            class="float-left"
+          >
+              <i class="ft-more-vertical"></i>
+          </button>
+          <mat-menu #menu="matMenu" xPosition="before">
+            <button mat-menu-item
+            (click)="onGateFactorsClick(gate)">
+              
+              <i class="ft-trending-down pl-1"></i>
+              <span>تراکنش ها</span>
+            </button>
+            <button
+            [routerLink]="['/panel/user/gate/edit/', gate.id]" 
+            mat-menu-item>
+              <i class="ft-edit pl-1"></i>
+              <span>ویرایش</span>
+            </button>
+          </mat-menu>
+
+          <!----><a
+            href="http://{{gate.websiteUrl}}"
+            target="blank"
+            class="header-link link color-link"
+            >{{gate.websiteUrl}}</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="middle-xs body">
+      <div class="row box-row">
+        <div class="ta-right webservice-code-label">
+          <span class="label">کد درگاه</span>
+        </div>
+        <div class="col-xs ta-left no-margin">
+          <div class="row label-group pull-left">
+            <div class="col-xs text merchant-code">
+              <input
+              #copy
+                onfocus="this.select();"
+                readonly="readonly"
+                class="txt-webservice-id"
+                value="{{gate.id}}"
+              />
+            </div>
+            <div
+                [ngxClipboard]="copy"
+    (cbOnSuccess)="onCopied()"
+              class="ft-copy madicono"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="row box-row">
+        <div class="ta-right"><span class="label">متصل به کیف‌پول</span></div>
+        <div class="col-xs ta-left no-margin">
+          <span class="tag-deposit-to pull-left"
+            ><div class="logo" style="background-image: url('{{gate.iconUrl}}');"></div>
+            <span>{{getGateWallet(gate.walletId).name}} </span></span
+          >
+        </div>
+      </div>
+      <div class="row box-row">
+        <div class="ta-right"><span class="label">محدودیت IP</span></div>
+        <div class="col-xs ta-left">
+          <span
+           *ngIf="gate.isIp"
+           [ngClass]="{'bbred': gate.isIp}"
+           class="text-value">دارای محدودیت</span>
+          <span 
+          *ngIf="!gate.isIp"
+          [ngClass]="{'bbgreen': !gate.isIp}"
+          class="text-value">بدون محدودیت</span>
+        </div>
+      </div>
+      <div class="row box-row">
+        <div class="ta-right"><span class="label">مستقیم</span></div>
+        <div class="col-xs ta-left no-left-margin">
+          <span
+          [ngClass]=" gate.isDirect ? 'bbgreen-dashed' : 'bbred-dashed'"
+          class="tag pull-left">غیر‌فعال</span>
+          <span
+          (click)="onActiveDialo(true)"
+          *ngIf="!gate.isDirect"
+          class="pull-left text-activation">فعالسازی</span>
+          <span
+          (click)="onActiveDialo(false)"
+          *ngIf="gate.isDirect"
+          class="pull-left text-activation">غیرفعالسازی</span>
+        </div>
+      </div>
+    </div>
+  </div
+  >
+  <!---->
+</div>

@@ -25,7 +25,7 @@ namespace RJ.Pay.Services.Site.Admin.Auth.Service
             {
                 return null;
             }
-            if (Utilities.VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+            if (!Utilities.VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
                 return null;
 
             return user;

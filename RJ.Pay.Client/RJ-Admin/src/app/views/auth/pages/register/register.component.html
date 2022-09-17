@@ -1,0 +1,184 @@
+<div class="container-login100 page-background">
+  <div class="wrap-login100">
+    <form
+      [formGroup]="registerForm"
+      (ngSubmit)="register()"
+      class="login100-form validate-form"
+    >
+      <a  href="/app" class="login100-form-logo">
+        <img alt="" src="./assets/img/white.png" />
+      </a>
+      <div [hidden]="!showRegisterSection">
+        <span class="login100-form-title p-b-34 p-t-27">
+          ثبت نام
+        </span>
+        <div class="row">
+          <div class="col-lg-12 p-t-20 ">
+            <div
+              class="wrap-input100 validate-input "
+              [ngClass]="{
+                'alert-validate':
+                  registerForm.get('name').errors &&
+                  registerForm.get('name').touched
+              }"
+              [attr.data-validate]="
+                registerForm.get('name').hasError('required') &&
+                registerForm.get('name').touched
+                  ? 'نام را وارد کنید'
+                  : null
+              "
+            >
+              <input
+                formControlName="name"
+                class="input100"
+                type="text"
+                placeholder="نام و نام خانوادگی"
+              />
+              <i class="fa fa-user focus-input1001"></i>
+              <i
+                *ngIf="
+                  registerForm.get('name').hasError('required') &&
+                  registerForm.get('name').touched
+                "
+                class="icon-info material-icons erroe_dis"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-12 p-t-20">
+            <div
+              class="wrap-input100 validate-input"
+              [ngClass]="{
+                'alert-validate':
+                  registerForm.get('userName').errors &&
+                  registerForm.get('userName').touched
+              }"
+              [attr.data-validate]="
+                registerForm.get('userName').hasError('required') &&
+                registerForm.get('userName').touched
+                  ? 'شماره موبایل را وارد کنید'
+                  : registerForm.get('userName').hasError('pattern') &&
+                    registerForm.get('userName').touched
+                  ? 'شماره موبایل صحیح نمیباشد'
+                  : null
+              "
+              data-validate="شماره موبایل را وارد کنید"
+            >
+              <input
+                formControlName="userName"
+                class="input100"
+                type="password"
+                placeholder="شماره موبایل (نام کاربری)"
+              />
+              <i class="ft-smartphone focus-input1001"></i>
+              <i
+                *ngIf="
+                  (registerForm.get('userName').hasError('required') &&
+                    registerForm.get('userName').touched) ||
+                  (registerForm.get('userName').hasError('email') &&
+                    registerForm.get('userName').touched)
+                "
+                class="icon-info material-icons erroe_dis"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-12 p-t-20">
+            <div
+              class="wrap-input100 validate-input"
+              [ngClass]="{
+                'alert-validate':
+                  registerForm.get('password').errors &&
+                  registerForm.get('password').touched
+              }"
+              [attr.data-validate]="
+                registerForm.get('password').hasError('required') &&
+                registerForm.get('password').touched
+                  ? 'پسورد را وارد کنید'
+                  : registerForm.get('password').hasError('pattern') &&
+                    registerForm.get('password').touched
+                  ? 'پسورد قوی نمیباشد'
+                  : null"
+            >
+              <input
+                formControlName="password"
+                class="input100"
+                type="password"
+                placeholder="رمز عبور"
+              />
+              <i class="fa fa-lock focus-input1001"></i>
+              <i
+                *ngIf="
+                  (registerForm.get('password').hasError('required') &&
+                    registerForm.get('password').touched) ||
+                  (registerForm.get('password').hasError('pattern') &&
+                    registerForm.get('password').touched)"
+                class="icon-info material-icons erroe_dis"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-12 p-t-20">
+            <div class="alert alert-warning" role="alert">
+              پسورد شما باید شمال حروف کوچک و بزرگ غیرفارسی و همچنین عددی باشد
+            </div>
+          </div>
+          </div>
+        
+        <div class="contact100-form-checkbox">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input
+                class="form-check-input"
+                formControlName="aproveRules"
+                type="checkbox"
+              />
+              با شرایط و ضوابط موافقم
+              <span class="form-check-sign">
+                <span class="check"></span>
+              </span>
+            </label>
+          </div>
+        </div>
+        <div class="container-login100-form-btn">
+          <a class="login100-form-btn" (click)="getCode()">
+            دریافت کد فعال سازی
+          </a>
+        </div>
+      </div>
+
+      <div  [hidden]="showRegisterSection">
+        <span class="login100-form-title p-b-34 p-t-27">
+          ورود کد فعالسازی
+        </span>
+        <div class="row">
+          <div class="col-lg-12 p-t-20 cstwraper">
+            <ng-otp-input
+            #ngOtpInput
+              (onInputChange)="onOtpChange($event)"
+              [config]="config"
+            ></ng-otp-input>
+          </div>
+        </div>
+         <div class="container-login100-form-btn">
+          <a (click)="getCode()" class="btn-send-sms">
+          <span> ارسال دوباره ی کد فعال سازی </span>
+          <countdown *ngIf="showCountDown" (event)="handleCountDownEvent($event)" [config]="countDownConfig"></countdown>
+        </a>
+        </div>
+        <div class="container-login100-form-btn">
+          <button
+            type="submit"
+            class="login100-form-btn"
+            [ngClass]="{ disabledbtn: !registerForm.valid }"
+            [disabled]="!registerForm.valid"
+          >
+            تکمیل ثبت نام
+          </button>
+        </div>
+      </div>
+      <div class="text-center p-t-50">
+        <a class="txt1" [routerLink]="['/auth/login']">
+          آیا عضو هستید ؟
+        </a>
+      </div>
+    </form>
+  </div>
+</div>
