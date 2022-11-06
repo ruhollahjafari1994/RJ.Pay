@@ -46,14 +46,14 @@ namespace RJ.Pay.Presentation.Controllers.Site.Admin
             var userToCreate = new User()
             {
                 UserName = userForRegisterDto.UserName,
-                Address = "",
-                City = "",
-                IsActive = true,
-                Gender = true,
+                Address = userForRegisterDto.Address,
+                City = userForRegisterDto.City,
+                IsActive = userForRegisterDto.IsActive,
+                Gender = userForRegisterDto.Gender,
                 DateOfBirth = DateTime.Now,
                 Name = userForRegisterDto.Name,
                 PhoneNumber = userForRegisterDto.PhoneNumber,
-                Status = true
+                Status = userForRegisterDto.Status
             };
             var createdUser = await _authService.Register(userToCreate, userForRegisterDto.Password);
             return StatusCode(201);
