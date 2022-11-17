@@ -27,8 +27,7 @@ namespace RJ.Pay.Presentation.Controllers.Site.Admin
         public async Task<ReturnResult<List<User>>> GetAll()
         {
 
-            var users =await _db.UserRepository.GetAllAsync();
-            var destObject = users..Adapt<UserVm>();
+            var users =await _db.UserRepository.GetAllAsync(); 
             return new ReturnResult<List<User>>() {  Success=true, Result=users.ToList() };
         }
     }
