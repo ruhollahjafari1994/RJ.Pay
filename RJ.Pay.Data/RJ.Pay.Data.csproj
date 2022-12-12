@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="Dtos\Api\" />
     <Folder Include="Dtos\Site\App\" />
+    <Folder Include="Migrations\" />
     <Folder Include="ViewModels\Api\" />
     <Folder Include="ViewModels\Site\App\" />
   </ItemGroup>
