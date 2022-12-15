@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,14 @@ namespace RJ.Pay.Data.DatabaseContext
 {
     public class RJDbContext : DbContext
     {
-       
+        public RJDbContext()
+        {
+
+        }   
+        public RJDbContext(DbContextOptionsBuilder<DbContextOptionsBuilder> opt) : base(opt)
+        {
+
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=GEEK\MASTER;Initial Catalog=RJPayDB;Integrated Security=True;MultipleActiveResultSets=True");
