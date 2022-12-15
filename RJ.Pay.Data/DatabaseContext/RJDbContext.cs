@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -10,19 +11,17 @@ namespace RJ.Pay.Data.DatabaseContext
 {
     public class RJDbContext : DbContext
     {
-        public RJDbContext()
-        {
+        private readonly IConfiguration _configuration;
 
-        }   
-        public RJDbContext(DbContextOptionsBuilder<DbContextOptionsBuilder> opt) : base(opt)
+        public RJDbContext(IConfiguration configuration)
         {
-
+            _configuration = configuration;
         }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        
         {
-            optionsBuilder.UseSqlServer(@"Data Source=GEEK\MASTER;Initial Catalog=RJPayDB;Integrated Security=True;MultipleActiveResultSets=True");
-
-
+            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("RJConnectionString"));
         }
         public DbSet<Models.User> Users { get; set; }
         public DbSet<Models.Photo> Photos { get; set; }
