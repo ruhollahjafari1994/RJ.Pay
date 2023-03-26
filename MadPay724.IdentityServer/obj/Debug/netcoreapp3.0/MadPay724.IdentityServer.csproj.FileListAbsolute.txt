@@ -1,0 +1,66 @@
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\appsettings.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.exe
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.deps.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.runtimeconfig.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.runtimeconfig.dev.json
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.pdb
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityModel.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityServer4.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityServer4.Storage.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.csprojAssemblyReference.cache
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\MadPay724.IdentityServer.StaticWebAssets.Manifest.cache
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\MadPay724.IdentityServer.StaticWebAssets.xml
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.AssemblyInfoInputs.cache
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.AssemblyInfo.cs
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.RazorTargetAssemblyInfo.cache
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.csproj.CopyComplete
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.dll
+D:\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.pdb
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\appsettings.Development.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\appsettings.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.exe
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.deps.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.runtimeconfig.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.runtimeconfig.dev.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\MadPay724.IdentityServer.pdb
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityModel.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityServer4.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\IdentityServer4.Storage.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.csproj.AssemblyReference.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.AssemblyInfoInputs.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.AssemblyInfo.cs
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.csproj.CoreCompileInputs.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\MadPay724.IdentityServer.StaticWebAssets.Manifest.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\MadPay724.IdentityServer.StaticWebAssets.Pack.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.MadPay724.IdentityServer.Microsoft.AspNetCore.StaticWebAssets.props
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.build.MadPay724.IdentityServer.props
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.buildMultiTargeting.MadPay724.IdentityServer.props
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.buildTransitive.MadPay724.IdentityServer.props
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.RazorTargetAssemblyInfo.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.csproj.CopyComplete
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.pdb
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.IdentityServer\obj\Debug\netcoreapp3.0\MadPay724.IdentityServer.genruntimeconfig.cache

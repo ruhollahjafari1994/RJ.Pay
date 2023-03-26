@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MadPay724.Shop.Test.props" />
+</Project>

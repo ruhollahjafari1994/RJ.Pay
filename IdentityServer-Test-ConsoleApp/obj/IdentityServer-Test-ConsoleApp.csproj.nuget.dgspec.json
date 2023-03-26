@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\IdentityServer-Test-ConsoleApp\\IdentityServer-Test-ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\IdentityServer-Test-ConsoleApp\\IdentityServer-Test-ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\IdentityServer-Test-ConsoleApp\\IdentityServer-Test-ConsoleApp.csproj",
+        "projectName": "IdentityServer-Test-ConsoleApp",
+        "projectPath": "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\IdentityServer-Test-ConsoleApp\\IdentityServer-Test-ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Geek\\.nuget\\packages\\",
+        "outputPath": "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\IdentityServer-Test-ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Geek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.10.10, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.2-alpha.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

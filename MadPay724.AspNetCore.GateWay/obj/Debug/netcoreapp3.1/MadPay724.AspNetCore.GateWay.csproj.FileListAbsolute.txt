@@ -1,0 +1,19 @@
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.AssemblyInfoInputs.cache
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.AssemblyInfo.cs
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.csprojAssemblyReference.cache
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.csproj.CoreCompileInputs.cache
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.deps.json
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.dll
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.pdb
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.dll
+D:\Tuts\Daneshjooyar\ProjectFile\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.pdb
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.deps.json
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\bin\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.pdb
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.csproj.AssemblyReference.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.GeneratedMSBuildEditorConfig.editorconfig
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.AssemblyInfoInputs.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.AssemblyInfo.cs
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.csproj.CoreCompileInputs.cache
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.dll
+H:\Baloochi\AsoCore3 and angular\ext\MadPay724-Server\MadPay724.AspNetCore.GateWay\obj\Debug\netcoreapp3.1\MadPay724.AspNetCore.GateWay.pdb

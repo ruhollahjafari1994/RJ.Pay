@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "YoPBKZBiV7J/ETS55JefBFNcgSnK2uAPlzOqpJnGs2iGMWpKC7wKLCBxSbtsym/V777DHGixmUShOO6FwiG7Pw==",
+  "success": true,
+  "projectFilePath": "H:\\Baloochi\\AsoCore3 and angular\\ext\\MadPay724-Server\\MadPay724.IdentityServer\\MadPay724.IdentityServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Geek\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\identityserver4\\3.0.1\\identityserver4.3.0.1.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\identityserver4.storage\\3.0.1\\identityserver4.storage.3.0.1.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.0.0\\microsoft.aspnetcore.authentication.openidconnect.3.0.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.identitymodel.logging\\5.5.0\\microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.5.0\\system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Geek\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
